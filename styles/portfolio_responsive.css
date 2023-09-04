@@ -1,0 +1,11 @@
+@media screen and (max-width:1640px){
+    main #skill .container {height:1000px;}
+}/* 1620 end */
+@media screen and (max-width:1230px){
+    main #skill .container {height:1300px;}
+    main #skill .container li {width:48%;}
+}/* 1210 end */
+@media screen and (max-width:920px){
+    main #skill .container {height:1500px;}
+    main #skill .container li {width:48%;}
+}/* 1210 end */

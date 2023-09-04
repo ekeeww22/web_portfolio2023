@@ -11,6 +11,7 @@ nav.style.transform = 'translateY(30px)'
 openLogo.style.filter = 'opacity(0)'
 closeBtn.style.display = 'none'
 openBtn.addEventListener('click',function(){
+    
     openBtn.style.display ='none'
     closeBtn.style.display = 'flex'
     nav.style.filter = 'opacity(100%)'
@@ -19,6 +20,7 @@ openBtn.addEventListener('click',function(){
     logo.style.filter = 'opacity(0)'
 })
 closeBtn.addEventListener('click',function(){
+    
     closeBtn.style.display = 'none'
     openBtn.style.display = 'flex'
     nav.style.filter = 'opacity(0)'
