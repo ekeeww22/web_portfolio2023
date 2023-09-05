@@ -90,6 +90,7 @@
                             <dd>ENFJ</dd>
                         </dl>
                         <dl class="keywords">
+                            
                             <dd>#창의적인  #유연한 사고를 가진  #융통성있는  #성실한</dd>
                         </dl>
                     </div>
@@ -225,5 +226,22 @@
         </section>
     </main>
     <script src="./script/portfolio.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script>
+        const secProfile = document.querySelector('#profile')
+        const secProfileH1 = document.querySelector('#profile > h1')
+        const secProfileImg = document.querySelector('#profile > .profile_wrap img')
+        const bg_p = document.querySelector('.bg p')
+        console.log(secProfile, secProfileH1)
+        //bg
+        
+        gsap.to(secProfileH1,{
+            scrollTrigger:secProfileImg.parentNode,
+            duration:1,
+            top:0, opacity:1
+        })
+        
+
+</script>
 </html>

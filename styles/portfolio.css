@@ -44,9 +44,9 @@ main #home_wrap .home_txt .intro {padding:15% 20px 50px 35%; z-index:888; positi
 main #home_wrap .home_txt .intro p {color:#222; font-size: 1.777rem; font-weight: 700;  line-height:70px; opacity:0;}
 main #home_wrap .home_txt .intro p span {font-weight:800; font-size:2.369rem;}
 main #home_wrap .home_txt .intro p em {font-weight:800; font-size:2.369rem;}
-main #home_wrap .home_txt .intro .line1 {animation:y50 0.8s ease 10s forwards;}
+main #home_wrap .home_txt .intro .line1 {animation:y50 0.8s ease 8s forwards;}
 main #home_wrap .home_txt .intro .line1 em {color:#FBB040;}
-main #home_wrap .home_txt .intro .line2 {animation:y50 0.8s ease 11.5s forwards;}
+main #home_wrap .home_txt .intro .line2 {animation:y50 0.8s ease 10.5s forwards;}
 main #home_wrap .home_txt .intro .line2 em {font-weight:900; color:rgb(63, 0, 63);}
 main #home_wrap .home_txt .scroll_down {display:flex; flex-flow:column nowrap; align-items:center;  z-index:888; position: absolute; bottom:5%; left:50%;}
 main #home_wrap .home_txt .scroll_down span {font-size:1.333rem; margin-bottom:10px;}
@@ -59,8 +59,8 @@ main #home_wrap .home_bg_wrap video {width:100%; position: absolute; left:0; top
 
 main #home_wrap .home_bg_wrap .bg_txt2 {position:absolute; bottom:15%; height:110px; width:150%; background:url(../images/bg_txt1.png) center repeat-x; animation:txt_bg1 80s linear infinite reverse; filter:opacity(5%); }   
 /* profile */
-main #profile {width:1200px; height:100vh; margin:0 auto;}
-main #profile h1 {font-size: 2.369rem; font-weight:800; padding:200px 0 50px;}
+main #profile {width:1200px; height:100vh; margin:0 auto; padding:100px 0; background:#ffe5be;}
+main #profile h1 {font-size: 2.369rem; font-weight:800; padding:100px 0 50px; animation:opacity_h1 1s ease;}
 main #profile .profile_wrap {display:flex; justify-content:space-between;}
 main #profile .profile_wrap img {width:250px; height:250px; margin-right:50px; margin-top:50px;}
 main #profile .profile_wrap .contents {display:flex; flex-flow:row wrap; justify-content: flex-end;}
@@ -73,7 +73,7 @@ main #profile .profile_wrap .contents > div dl dd {line-height: 25px;}
 main #profile .profile_wrap .contents .profile dl dt {width:50px;}
 main #profile .profile_wrap .contents .profile .keywords dd {font-weight:600;}
 /* #skill */
-main #skill {min-width:900px;  height:100vh; }
+main #skill {min-width:900px;  height:100vh; margin:0 auto; padding:100px 0;}
 main #skill h1 {margin:0 5%;
     font-size: 2.369rem; font-weight:900; padding-bottom:30px; letter-spacing:-0.02em; border-bottom:3px solid #333;}
 main #skill .container {
@@ -93,7 +93,7 @@ main #skill .container li .contents {
     width:calc(100% - 80px); font-size:1.25rem ; font-weight:600; line-height:40px; letter-spacing:-0.02em;}
 /* 프로젝트 */
 /* 웹프로젝트 */
-main #project_web {max-width:1200px; height:100vh; margin:100px auto; display:flex; justify-content: space-between; align-items:center;}
+main #project_web {max-width:1200px; height:100vh; margin:0 auto; padding:100px 0; display:flex; justify-content: space-between; align-items:center;}
 main #project_web h1 {text-align:center; font-size:2.369rem; font-weight: 800; line-height:60px; }
 /* 프로젝트 1 */
 main #project_web .web_1 {}
@@ -135,7 +135,10 @@ main #project_web .web_1:last-child .link a:last-child:hover {background:#4ec935
     0% {opacity:0;}
     100% {opacity:100%;}
 }
-
+@keyframes opacity_h1 {
+    0% {opacity:0; transform:translateY(50px);}
+    100% {opacity:1; transform:translateY(0);}
+}
 @keyframes txt_bg {
     0% {background-position-x:0;}
     100% {background-position-x:10000px;}
