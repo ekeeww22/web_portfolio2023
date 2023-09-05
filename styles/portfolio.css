@@ -1,6 +1,7 @@
 /* nav 동작 */
 body, html {scroll-behavior:smooth;}
-body {overflow-x: hidden;}
+body {}
+main #main {overflow-x: hidden;}
 /* header */
 header * {width:100%; z-index: 999; }
 header .header {max-width:1200px; margin:30px 0 50px; display:flex; align-items:center; justify-content:space-between; position:fixed; left:50%; transform:translateX(-50%); padding:0 30px;}
