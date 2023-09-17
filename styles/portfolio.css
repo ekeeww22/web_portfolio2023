@@ -97,7 +97,7 @@ main #main #skill .container li .contents {
 /* 프로젝트 */
 /* 웹프로젝트 */
 main #main #project_web {width:100%; height:100vh; margin:0 auto; padding:100px 0; display:flex; justify-content: center; align-items:center;}
-main #main #project_web h1 {padding:0 100px; height:100%; background: #9cc255; }
+main #main #project_web h1 {padding:0 100px; height:100%; }
 main #main #project_web h1 img {position: relative; top:40%;}
 /* 프로젝트 1 */
 main #main #project_web .web_1 {padding:0 100px;}
@@ -118,7 +118,7 @@ main #main #project_web .web_1:last-child .link a:last-child:hover {background:#
 main #main #project_web .web_2 {padding:0 100px;}
 main #main #project_web .web_2 .preview {text-align:center;}
 main #main #project_web .web_2 .preview h2 {font-size:1.77rem; font-weight: 800; line-height:60px; }
-main #main #project_web .web_2 .preview img {margin:30px 0;}
+main #main #project_web .web_2 .preview img {margin:30px 0; width:500px;}
 main #main #project_web .web_2 .project_info {}
 main #main #project_web .web_2:last-child .project_info {}
 main #main #project_web .web_2 .project_info p {font-size: 1.25rem; font-weight:500; letter-spacing:-0.02em; line-height:35px;}
@@ -133,7 +133,7 @@ main #main #project_web .web_2:last-child .link a:last-child:hover {background:#
 main #main #project_web .web_3 {padding:0 100px;}
 main #main #project_web .web_3 .preview {text-align:center;}
 main #main #project_web .web_3 .preview h2 {font-size:1.77rem; font-weight: 800; line-height:60px; }
-main #main #project_web .web_3 .preview img {margin:30px 0;}
+main #main #project_web .web_3 .preview img {margin:30px 0; width:500px;}
 main #main #project_web .web_3 .project_info {}
 main #main #project_web .web_3:last-child .project_info {}
 main #main #project_web .web_3 .project_info p {font-size: 1.25rem; font-weight:500; letter-spacing:-0.02em; line-height:35px;}
