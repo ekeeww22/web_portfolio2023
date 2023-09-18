@@ -13,6 +13,7 @@ header .header nav {display:flex; align-items:center; }
 header .header nav > ul {display:flex; align-items:center; transition:all 0.5s ease;}
 header .header nav > ul li {padding-right:50px; }
 header .header nav > ul li a {font-size:1.33rem; font-weight:600;}
+/* nav 버튼 */
 header .header nav > .btn {position:relative;}
 header .header nav > .btn .open_btn {transition:all 0.3s ease;
 width:30px; height:30px; display:flex; flex-flow:column nowrap; justify-content:space-between;}
@@ -99,6 +100,7 @@ main #main #skill .container li .contents {
 main #main #project_web {width:100%; height:100vh; margin:0 auto; padding:100px 0; display:flex; justify-content: center; align-items:center;}
 main #main #project_web h1 {padding:0 100px; height:100%; }
 main #main #project_web h1 img {position: relative; top:40%;}
+main #main #project_web div .preview img {margin:30px 0; width:500px;}
 /* 프로젝트 1 */
 main #main #project_web .web_1 {padding:0 100px;}
 main #main #project_web .web_1 .preview {text-align:center;}
@@ -144,6 +146,22 @@ main #main #project_web .web_3 .link a:last-child {background:#D93535; margin-ri
 main #main #project_web .web_3:last-child .link a:last-child {background:#9cc255; margin-right:0;}
 main #main #project_web .web_3 .link a:last-child:hover {background:#FF9900;}
 main #main #project_web .web_3:last-child .link a:last-child:hover {background:#4ec935; color:#333;}
+/* 프로젝트 4 */
+main #main #project_web .web_4 {padding:0 100px;}
+main #main #project_web .web_4 .preview {text-align:center;}
+main #main #project_web .web_4 .preview h2 {font-size:1.77rem; font-weight: 800; line-height:60px; }
+main #main #project_web .web_4 .preview img {margin:30px 0; width:500px;}
+main #main #project_web .web_4 .project_info {}
+main #main #project_web .web_4:last-child .project_info {}
+main #main #project_web .web_4 .project_info p {font-size: 1.25rem; font-weight:500; letter-spacing:-0.02em; line-height:35px;}
+main #main #project_web .web_4 .link {padding:30px 0; position: relative; left:10%;}
+main #main #project_web .web_4 .link a {display:inline-block; padding:20px; border-radius:5px; background:#333; font-size: 1.25rem; letter-spacing:-0.02em; color:#FFF; margin-right:10px; transition:all 0.3s;}
+main #main #project_web .web_4 .link a:hover {background:#ccc; color:#222; font-weight:600;}
+main #main #project_web .web_4 .link a:last-child {background:#D93535; margin-right:0;}
+main #main #project_web .web_4:last-child .link a:last-child {background:#bf0000; margin-right:0;}
+main #main #project_web .web_4 .link a:last-child:hover {background:#FF9900;}
+main #main #project_web .web_4:last-child .link a:last-child:hover {background:#530000; color:#fff;}
+
 
 
 
